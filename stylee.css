@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f4f8;
+}
+
+header {
+    background: #0755d9;
+    color: white;
+    padding: 20px 8%;
+}
+
+.container {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.welcome {
+    background: #0755d9;
+    color: white;
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.welcome p {
+    margin-top: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.box h2 {
+    color: #0755d9;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin-bottom: 15px;
+}
+
+.box ul {
+    padding-left: 20px;
+}
+
+.box li {
+    margin-bottom: 12px;
+}
+
+.registration {
+    text-align: center;
+    margin: 35px 0 20px;
+    color: #0755d9;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0755d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003da8;
+}
+
+#message {
+    text-align: center;
+    margin: 15px;
+    color: green;
+}
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
